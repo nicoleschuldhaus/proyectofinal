@@ -1,0 +1,90 @@
+:root{
+    --purple: #c1c1f9;
+    --lightpurple: #d5dafd;
+    --lightviolet: #ad99e8;
+    --darkviolet: #6d65e6;
+    --white: #fdfdfd;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--lightpurple)
+}
+
+h1{
+    margin-top: 100px;
+    color:var(--darkviolet);
+    text-align: center;
+}
+
+form{
+    width: 400px;
+    margin: 45px auto;
+    text-align: center;
+}
+
+form input[type="text"]{
+    background-color: var(--lightpurple);
+    color: var(--darkviolet);
+    border-style: none;
+    font-size: 1em;
+}
+form input[type="text"]::placeholder{
+    color: var(--darkviolet);
+}
+
+form input[type="text"]:focus{
+    outline: none;
+}
+
+form input[type="submit"]{
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border-style: none;
+    color: var(--darkviolet);
+}
+form input[type="submit"]:hover{
+    background-color: var(--darkviolet);
+    cursor: pointer;
+    color: var(--lightpurple);
+}
+
+.list-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.task-container {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-size: 500;
+    color: var(--darkviolet);
+}
+
+.closeBtn {
+    width: 20px;
+    height: 20px;
+}
+
+.closeBtn:hover {
+    cursor: pointer;
+}
+
+#stats{
+    margin-top: 25px;
+    font-size: 1em;
+    color: var(--darkviolet);
+    text-align: center;
+}
