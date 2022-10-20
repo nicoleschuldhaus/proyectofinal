@@ -17,7 +17,7 @@ let addTask = ()=>{
             <input type="checkbox">
             ${newValue}
         </label>
-        <img src="./images/borrar.png" alt="basura" class="closeBtn">
+        <img src="./images/borrar.png" class="closeBtn">
     </div>
     `
 
